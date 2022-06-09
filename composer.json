@@ -1,0 +1,24 @@
+{
+    "name": "fisak/hexlet-slim-example-1",
+    "description": "test-slim",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fisak\\HexletSlimExample1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anton",
+            "email": "afisak94@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "slim/http": "^1.2",
+        "slim/php-view": "^3.1",
+        "php-di/php-di": "^6.4"
+    }
+}
